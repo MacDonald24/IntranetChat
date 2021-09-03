@@ -1,0 +1,4 @@
+Bundle-Name: Smollanv0-chatroom
+Bundle-SymbolicName: com.smollan.intranetbot.chatroom
+Bundle-Version: 1.0.0
+Export-Package:com.smollan.intranetbot.chatroom.constants

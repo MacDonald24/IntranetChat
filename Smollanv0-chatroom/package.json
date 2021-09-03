@@ -1,0 +1,47 @@
+{
+  "name": "kesibot-chatroom",
+  "version": "1.0.0",
+  "description": "Kesibot Chatroom",
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.50",
+    "@babel/core": ">=7.0.0",
+    "@babel/plugin-transform-instanceof": "7.0.0-beta.53",
+    "@babel/preset-es2015": "7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0-beta.40",
+    "babel-loader": "8.2.2",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-react-transform": "^3.0.0",
+    "clean-webpack-plugin": "*",
+    "css-loader": "^5.2.2",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^4.5.2",
+    "http-proxy-middleware": "^2.0.1",
+    "npm-install-peers": "^1.2.2",
+    "path": "^0.12.7",
+    "react-chat-widget": "^3.0.5",
+    "style-loader": "^3.2.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-chat-widget": "3.0.5",
+    "react-scripts": "^4.0.3",
+    "rgbcolor": "^1.0.1",
+    "yandex-map-react": "^1.1.1"
+  },
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kesizo/kesibot-chatroom/"
+  },
+  "author": "kesizospace@gmail.com",
+  "license": "MIT"
+}
